@@ -50,20 +50,28 @@ body {
   color: #000;
 }
 
-.site-button {
-  padding: 8px 16px;
-  border-radius: 5px;
-  background-color: #00bafc;
-  border: none;
-}
-
 .button-link {
   font-weight: 700;
   font-size: 15px;
   line-height: 24px;
   color: #fff;
   text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  background-color: #00bafc;
+  border: none;
+}
 
+.button-link:hover {
+  background: #FFFFFF;
+  outline: 3px solid #00bafc;
+  color: #00bafc;
+}
+
+.button-link:focus {
+  background-color: rgba(0, 186, 252, 0.6);
+  color: #fff;
+  outline-color: rgba(0, 186, 252, 0.6);
 }
 
 #hero {
