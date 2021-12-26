@@ -7,7 +7,6 @@ body {
 }
 
 #site-header {
-  /* padding: 8px 0; */
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -20,18 +19,9 @@ body {
   margin-right: 326px;
 }
 
-.site-nav {
-  
-}
-
 .nav-list {
   list-style-type: none;
 }
-
-.nav-item {
-}
-
-
 
 .nav-link:hover {
   border-bottom: 3px solid #191919;
@@ -408,7 +398,6 @@ body {
   margin-bottom: 8px;
 }
 
-
 .pages-link {
   text-decoration: none;
   color: #fff;
@@ -423,10 +412,6 @@ body {
 .pages-link:focus {
   color: #00bafc;
   opacity: 0.6;
-}
-
-.footer-net {
-
 }
 
 .net-title {
